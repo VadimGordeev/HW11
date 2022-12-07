@@ -1,0 +1,478 @@
+@media screen 
+and (max-width:640px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .wrapper {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('../media/phone/image1_phone.png') no-repeat 0 0/ 100% 100%;
+    }
+    header {
+        height: 56px;
+        background: #000000;
+        margin: 0 auto;
+        background-image: url('../media/phone/logo_phone.png');
+        background-repeat: no-repeat;
+        background-position: 10% 0px;
+        box-sizing: border-box;
+    }
+    header {
+        .header_menu {
+            display: none;
+        }
+        .header_menu_phone {
+            display: inline;
+            margin: 19px 11% 19px 82%;
+        }
+    }
+    .banner {
+        max-width: 320px;
+        height: 949px;
+        background: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner_info {
+        height: 378px;
+        margin: 84px auto 0px;
+        width: 96%;
+        max-width: 288px;
+        p {
+            width: 100%;
+            max-width: 288px;
+            height: 32px;
+            font-size: 14px;
+            line-height: 16px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 42px auto 0;
+        }
+        button {
+            width: 100%;
+            max-width: 288px;
+            height: 50px;
+            margin-top: 42px;
+        }
+        .banner_info_text {
+            width: 100%;
+            height: 212px;
+            h1 {
+                font-size: 36px;
+                line-height: 42px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                text-transform: uppercase;
+                height: 168px;
+            }
+            .banner_info_text_separator {
+                width: 47%;
+                max-width: 134px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .banner_trial {
+        margin: 56px auto 50px;
+        max-width: 288px;
+        height: 381px;
+        h4 {
+            max-width: 240px;
+            height: 90px;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+    .banner_trial_form {
+        margin: 0;
+    }
+    .banner_trial_form input {
+        max-width: 240px;
+        height: 38px;
+    }
+    .banner_trial button {
+        max-width: 288px;
+        margin-top: 51px;
+    }
+    .social {
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+        .social_text {
+            max-width: 287px;
+            height: 106px;
+            margin: 0 auto;
+            h4 {
+                height: 45px;
+                font-size: 18px;
+                line-height: 25px;
+                justify-content: center;
+            }
+            p {
+                max-width: 271px;
+                height: 48px;
+                font-size: 14px;
+                line-height: 16px;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        .socail_icon {
+            display: none;
+        }
+        .socail_icon_phone {
+            max-width: 284px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 26px;
+            margin: 32px auto 44px;
+        }
+    }
+    .tab {
+        margin: 41px auto 0px;
+        height: 470px;
+        max-width: 288px;
+        .tab_content {
+            max-width: 288px;
+            height: 431px;
+            background: none;
+            h3 {
+                max-width: 243px;
+                height: 112px;
+                font-size: 18px;
+                line-height: 25px;
+                margin: 0px auto;
+            }
+            .tab_content_text {
+                margin: 29px auto;
+                width: 85%;
+                max-width: 243px;
+                height: 180px;
+                .tab_content_text_p1, .tab_content_text_p2 {
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+            }
+            button {
+                width: 85%;
+                max-width: 243px;
+                height: 50px;
+                background: #EC7979;
+                margin: 0px 20px 30px 25px;
+            }
+        }
+        .tab_title { 
+            width: 31%;
+            max-width: 89px;
+        }
+    }
+    .tab :checked + .tab_title {
+        width: 36%;
+        max-width: 102px;
+    }
+    .awesome {
+        max-width: 288px;
+        height: 1200px;
+        margin: 0px auto;
+        .awesome_text {
+            max-width: 288px;
+            height: 120px;
+            .awesome_text_h2 {
+                font-size: 18px;
+                line-height: 21px;
+            }
+            .awesome_text_separator {
+                width: 47%;
+                max-width: 134px;
+            }
+        }
+        h5 {
+            max-width: 288px;
+            height: 30px;
+            font-size: 13px;
+            line-height: 15px;
+            margin: 25px auto 0px;
+        }
+    }
+    .awesome_about {
+        margin: 50px auto 0px;
+        display: flex;
+        flex-direction: column;
+        height: 974px;
+    }
+    .awesome_about_group {
+        width: 100%;
+        max-width: 288px;
+        height: 318px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        h4 {
+            max-width: 288px;
+            height: 82px;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        h5 {
+            max-width: 288px;
+            height: 80px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    .awesome_about_group_icon {
+        display: none;
+    }
+    .awesome_about_group_icon_tablet {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1px solid #EC7979;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+    }
+    .pricing {
+        max-width: 320px;
+        height: 1480px;
+        margin: 0px auto;
+        h5 {
+            max-width: 288px;
+            font-size: 14px;
+            line-height: 16px;
+            margin: 24px auto;
+        }
+    }
+    .pricing_title {
+        max-width: 288px;
+        height: 120px;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .pricing_title_separator {
+            width: 47%;
+            max-width: 134px;
+        }
+    }
+    .pricing_price {
+        max-width: 288px;
+        height: 1254px;
+        margin: 24px auto 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .pricing_price_item {
+        max-width: 288px;
+        width: 100%;
+        max-height: 400px;
+        height: 100%;
+        .pricing_price_item_name {
+            height: 47px;
+        }
+        .pricing_price_item_cost {
+            height: 78px;
+        }
+        .pricing_price_item_life {
+            height: 39px;
+        }
+        .pricing_price_item_space {
+            height: 39px;
+        }
+    }
+    .customers {
+        max-width: 288px;
+        margin: 0px auto;
+        h5 {
+            max-width: 288px;
+            font-size: 14px;
+            line-height: 16px;
+            margin: 24px auto;
+        }
+    }
+    .customers_title {
+        height: 120px;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .customers_title_separator {
+            width: 47%;
+            max-width: 134px;
+        }
+    }
+    .customers_review {
+        max-width: 288px;
+    }
+    .customers_review_customer {
+        width: 100%;
+        max-width: 288px;
+    }
+    .customers_review_customer_text {
+        width: 100%;
+        max-width: 288px;
+        height: 180px;
+        p {
+            height: 80px;
+            max-width: 288px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    .customers_review_customer_text::before {
+        content: '';
+        background-image: url('../media/tablet/Polygon1_tablet.png');
+        width: 25px;
+        top: 100%;
+    }
+    .customers_review_customer_info {
+        margin-top: 62px;
+    }
+    .customers_review_customer_info_img {
+        display: none;
+    }
+    .customers_review_customer_info_tablet_img {
+        display: none;
+    }
+    .customers_review_customer_info_phone_img {
+        max-width: 57px;
+        width: 20%;
+        max-height: 57px;
+        height: 94%;
+        display: flex;
+    }
+    .customers_review_customer:nth-child(odd) {
+        display: none;
+    }
+    .customers_review_customer_info_text {
+        width: 71%;
+        max-width: 204px;
+        height: 61px;
+        h4 {
+            font-size: 14px;
+            line-height: 19px;
+        }
+        h5 {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+    .customers_review_menu {
+        margin: 23px auto 32px;
+        max-width: 130px;
+        width: 50%;
+        height: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .customers_review_menu_radio {
+        max-width: 10px;
+        width: 8%;
+        max-height: 10px;
+        height: 100%;
+        border: 1px solid #86878B;
+        border-radius: 50%;
+    }
+    .customers_review_menu_radio:nth-child(even) {
+        background: #86878B;
+    }
+    .design {
+        width: 100%;
+        height: 358px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../media/phone/image2_phone.png') no-repeat 0 0 / 100% 100%;
+        h5 {
+            font-size: 14px;
+            line-height: 16px;
+            margin: 16px auto 0px;
+            max-width: 288px;
+            width: 100%;
+            height: 48px;
+        }
+        button {
+            width: 100%;
+            max-width: 288px;
+            height: 50px;
+            margin: 50px auto 58px;
+        }
+    }
+    .design_title {
+        width: 100%;
+        max-width: 288px;
+        height: 120px;
+        padding: 0;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .design_title_separator {
+            width: 47%;
+            max-width: 134px;
+        }
+    }
+    .contact {
+        max-width: 288px;
+        height: 807px;
+        margin: 0px auto 40px;
+        h5 {
+            max-width: 288px;
+            font-size: 14px;
+            line-height: 16px;
+            margin: 24px auto 64px;
+        }
+        form {
+            max-width: 288px;
+            height: 464px;
+            flex-direction: column;
+            .contact_form_in {
+                width: 100%;
+                max-width: 288px;
+            }
+            input {
+                max-width: 288px;
+            }
+            textarea {
+                max-width: 288px;
+                height: 200px;
+            }
+        }
+    }
+    .contact_form_button {
+        width: 100%;
+        max-width: 288px;
+    }
+    .contact_title {
+        max-width: 288px;
+        height: 120px;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .contact_title_separator {
+            width: 47%;
+            max-width: 134px;
+        }
+    }
+    .footer_social {
+        display: none;
+    }
+    .footer_social_tablet {
+        display: none;
+    }
+    .footer_social_phone {
+        margin-top: 35px;
+        width: 100%;
+        max-width: 284px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_copyright {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

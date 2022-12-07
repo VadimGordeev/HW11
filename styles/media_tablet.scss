@@ -1,0 +1,384 @@
+@media screen 
+and (max-width:1240px)
+and (min-width:640px)
+{
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .wrapper {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url('../media/tablet/image1_tablet.png') no-repeat 0 0/100% 100%;
+    }
+    header {
+        .header_menu {
+            max-width: 566px;
+            margin: 0px 2% 0 43%;
+            display: flex;
+        }
+    }
+    .banner {
+        max-width: 1024px;
+        height: 693px;
+        background: url('../media/tablet/logo2_tablet.png') no-repeat 14% 135px;
+    }
+    .banner_info {
+        width: 45%;
+        max-width: 454px;
+        height: 313px;
+        margin: 250px 3.5% 0 11%;
+        .banner_info_text {
+            width: 100%;
+            max-width: 454px;
+            height: 168px;
+            h1 {
+                font-size: 36px;
+                line-height: 42px;
+                max-width: 454px;
+                width: 100%;
+                height: 126px;
+            }
+            p {
+                width: 42%;
+                max-width: 183px;
+                height: 32px;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            button {
+                width: 42%;
+                max-width: 183px;
+                height: 50px;
+            }
+        }
+    }
+    .banner_trial {
+        max-width: 398px;
+        margin: 137px 2% 106px 0px;
+        h4 {
+            max-width: 298px;
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+    .banner_trial_form input {
+        max-width: 298px;
+    }
+    .banner_trial_button {
+        max-width: 398px;
+    }
+    .social {
+        .social_text {
+            max-width: 402px;
+            height: 90px;
+            h4 {
+                height: 45px;
+                font-size: 18px;
+                line-height: 25px;
+            }
+            p {
+                height: 32px;
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+        .socail_icon_tablet {
+            max-width: 568px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 64px;
+            margin-top: 25px;
+        }
+        .socail_icon {
+            display: none;
+        }
+    }
+    .tab {
+        margin: 50px auto 0px;
+        height: 425px;
+        max-width: 992px;
+        .tab_title { 
+            max-width: 156px;
+        }
+        .tab_content {
+            max-width: 992px;
+            height: 386px;
+            background: url('../media/tablet/freedom_tablet.png') no-repeat 100% 0%;
+            h3 {
+                max-width: 482px;
+                height: 89px;
+                font-size: 24px;
+                line-height: 33px;
+                margin: 0px 2.6% 38px 8.4%;
+                color: #000000;
+            }
+            .tab_content_text {
+                margin: 0px 2.6% 38px 8.4%;
+                max-width: 482px;
+                height: 112px;
+                .tab_content_text_p1, .tab_content_text_p2 {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            button {
+                width: 23.3%;
+                max-width: 232px;
+                height: 58px;
+                background: #EC7979;
+                margin: 0px 27.8% 50px 8.4%;
+            }
+        }
+        
+    }
+    .tab :checked + .tab_title {
+        width: 17.4%;
+        max-width: 172px;
+    }
+    .awesome {
+        max-width: 992px;
+        height: 518px;
+        margin: 50px auto 0px;
+        .awesome_text {
+            height: 120px;
+            .awesome_text_h2 {
+                height: 120px;
+                font-size: 24px;
+                line-height: 28px;
+            }
+            .awesome_text_separator {
+                max-width: 142px;
+            }
+        }
+        h5 {
+            width: 99%;
+            max-width: 983px;
+            height: 16px;
+            font-size: 14px;
+            line-height: 16px;
+            margin: 32px auto 0px;
+        }
+    }
+    .awesome_about {
+        margin: 32px auto;
+    }
+    .awesome_about_group {
+        max-width: 318px;
+        height: 310px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h4 {
+            max-width: 318px;
+            height: 82px;
+            font-size: 18px;
+            line-height: 25px;
+        } 
+        h5 {
+            max-width: 318px;
+            height: 64px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .awesome_about_group_icon {
+            display: none;
+        }
+        .awesome_about_group_icon_tablet {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 1px solid #EC7979;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px auto;
+        }
+    }
+    .pricing {
+        max-width: 1024px;
+        height: 770px;
+        margin: 60px auto 0px;
+        h5 {
+            max-width: 982px;
+            font-size: 14px;
+            line-height: 16px;
+            margin: 32px auto 50px;
+        }
+    }
+    .pricing_title {
+        max-width: 992px;
+        height: 120px;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .pricing_title_separator {
+            width: 15%;
+            max-width: 142px;
+        }
+    }
+    .pricing_price {
+        max-width: 1024px;
+        margin: 0px auto 50px;
+    }
+    .pricing_price_item {
+        max-width: 317px;
+        max-height: 452px;
+        height: 100%;
+        .pricing_price_item_name {
+            height: 53px;
+        }
+        .pricing_price_item_cost {
+            height: 88px;
+        }
+        .pricing_price_item_life {
+            height: 44px;
+        }
+        .pricing_price_item_space {
+            height: 44px;
+        }
+    }
+    .pricing_price_item:hover {
+        filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+        position: relative;
+        bottom: 20px;
+        cursor: pointer;
+    }
+    .customers {
+        max-width: 992px;
+        margin: 50px auto 57px;
+        h5 {
+            font-size: 14px;
+            line-height: 16px;
+            margin: 32px auto;
+        }
+    }
+    .customers_title {
+        height: 120px;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .customers_title_separator {
+            width: 15%;
+            max-width: 142px;
+        }
+    }
+    .customers_review_customer {
+        width: 32%;
+        max-width: 317px;
+    }
+    .customers_review_customer_text::before {
+        content: '';
+        background-image: url('../media/tablet/Polygon1_tablet.png');
+        width: 25px;
+        top: 100%;
+    }
+    .customers_review_customer_text {
+        p {
+            height: 80px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    .customers_review_customer_info_img {
+        display: none;
+    }
+    .customers_review_customer_info {
+        h4 {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        h5 {
+            font-size: 14px;
+            line-height: 16px;
+            margin: 0;
+        }
+    }
+    .customers_review_customer_info_tablet_img {
+        max-width: 63px;
+        width: 20%;
+        max-height: 63px;
+        height: 20%;
+        display: flex;
+    }
+    .design {
+        height: 358px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../media/tablet/image2_tablet.png') no-repeat 0 0 / 100% 100%;
+        h5 {
+            width: 97%;
+            max-width: 992px;
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 32px;
+        }
+        button {
+            width: 31%;
+            max-width: 318px;
+            height: 58px;
+            margin-top: 32px;
+        }
+    }
+    .design_title {
+        height: 120px;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .design_title_separator {
+            width: 15%;
+            max-width: 142px;
+        }
+    }
+    .contact {
+        max-width: 992px;
+        margin: 50px auto;
+        h5 {
+            font-size: 14px;
+            line-height: 16px;
+            margin: 32px auto 72px;
+        }
+        form {
+            .contact_form_in {
+                margin-right: 2%;
+            }
+            input {
+                max-width: 486px;
+            }
+            textarea {
+                max-width: 486px;
+            }
+        }
+    }
+    .contact_title {
+        height: 120px;
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        .contact_title_separator {
+            width: 15%;
+            max-width: 142px;
+        }
+        
+    }
+    .contact_form_button {
+        max-width: 318px;
+    }
+    .footer_social {
+        display: none;
+    }
+    .footer_social_tablet {
+        margin-top: 35px;
+        width: 47%;
+        max-width: 477px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_copyright {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
